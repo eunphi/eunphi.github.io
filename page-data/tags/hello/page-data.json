@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/hello/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"hello-world"},"frontmatter":{"title":"Hello World!","date":"23 Agustus 2021"},"id":"d36109f6-02f8-5dc5-a641-0df91d3e2202"}}]}},"pageContext":{"tag":"hello"}},"staticQueryHashes":["1956816089"]}
