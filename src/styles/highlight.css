@@ -1,0 +1,54 @@
+.gatsby-highlight {
+  background-color: #262626;
+  margin: 0;
+  border-left: 4px solid #0369a1;
+  padding: 1em;
+  overflow: auto;
+  max-height: 400px;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  overflow: initial;
+  float: left;
+  min-width: 100%;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background-color: #0369a1;
+  padding: 0 6px;
+  overflow-wrap: break-word;
+  color: #fff;
+}
+
+.prose code::before {
+  content: "";
+}
+
+.prose code::after {
+  content: "";
+}
+
+.command-line-prompt {
+  margin-right: -5px;
+  border: 0;
+}
+
+.prose code.language-bash::before {
+  content: '$ ';
+  color: #999;
+}
+
+/* Post */
+.anchor.before {
+  top: 10px !important;
+  stroke: #3498db;
+}
+
+/* Other */
+.prose li::before {
+  display: none;
+}
